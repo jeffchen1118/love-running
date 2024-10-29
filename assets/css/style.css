@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project stytles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -39,7 +40,7 @@ footer {
 }
 
 
-.lato-thin {
+/* .lato-thin {
     font-family: "Lato", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -107,4 +108,4 @@ footer {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+} */
