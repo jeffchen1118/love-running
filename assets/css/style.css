@@ -57,6 +57,19 @@ h1 {
   border-bottom: 1px solid #3a3a3a;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    /* takes it outside the page flow, and positioned it relatively to the nearest ancestor, header */
+    position: absolute;    
+    background-color: #ffffff; 
+    left: 0;
+    padding: 0 1rem;
+    width: 100%; 
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none; 
+    
+}
+
 
 /* main content */
 main {
@@ -133,7 +146,7 @@ footer {
   }
   
 /* <uniquifier>: Use a unique and descriptive class name */
-/* <weight>: Use a value from 200 to 700 */
+/* <weight>: Use a value from 200 to 700 
 
 .oswald-test {
   font-family: "Oswald", sans-serif;
