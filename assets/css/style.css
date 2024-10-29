@@ -27,6 +27,9 @@ header {
     z-index: 99;                 /* make sure the layer is on top of any other elements*/
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a; /* left-offset vertical-offset blur shadow-color*/ 
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -67,7 +70,21 @@ nav {
     width: 100%; 
     box-shadow: 0 2px 2px #3a3a3a;
     display: none; 
+    top: 100%;
     
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+  display: block
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
 }
 
 
