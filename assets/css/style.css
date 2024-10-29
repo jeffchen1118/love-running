@@ -29,8 +29,18 @@ header {
     box-shadow: 0 2px 2px #3a3a3a; /* left-offset vertical-offset blur shadow-color*/ 
 }
 
+header a {
+  text-decoration: none;
+  color: inherit;                /*inherit from body, not browser after above line*/
+}
+
+
+
 h1 {
   font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
 }
 
 
