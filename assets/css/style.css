@@ -21,8 +21,12 @@ body {
 
 /* Header */
 header {
-    background-color: lightcoral;
-
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;             /* for nav bar to scroll alone*/
+    z-index: 99;                 /* make sure the layer is on top of any other elements*/
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a; /* left-offset vertical-offset blur shadow-color*/ 
 }
 
 h1 {
